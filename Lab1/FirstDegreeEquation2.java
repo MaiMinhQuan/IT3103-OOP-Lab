@@ -1,3 +1,5 @@
+package Lab1;
+
 //a11x1 + a12x2 = b1
 //a21x1 + a22x2 = b2
 

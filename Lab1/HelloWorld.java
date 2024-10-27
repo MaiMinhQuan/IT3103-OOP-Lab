@@ -1,3 +1,5 @@
+package Lab1;
+
 //Example 1: HelloWorld.java
 //Text printing program
 

@@ -1,3 +1,4 @@
+package Lab1;
 import java.util.Scanner;
 
 public class InputFromKeyboard {
@@ -13,5 +14,7 @@ public class InputFromKeyboard {
 
         System.out.println("Mai Minh Quan - 20225661 - Mrs/Ms. " + strName + ", " + iAge + " years old." +
         " Your height is " + dHeight + ".");
+
+        keyboard.close();
     }
 }

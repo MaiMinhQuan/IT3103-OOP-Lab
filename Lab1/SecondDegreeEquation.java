@@ -1,3 +1,4 @@
+package Lab1;
 // ax^2 + bx + c = 0
 import java.util.Scanner;
 

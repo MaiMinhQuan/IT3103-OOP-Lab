@@ -1,3 +1,5 @@
+package Lab1;
+
 import java.util.Scanner;
 
 public class Array {
@@ -43,3 +45,4 @@ public class Array {
         scanner.close();
     }
 }
+

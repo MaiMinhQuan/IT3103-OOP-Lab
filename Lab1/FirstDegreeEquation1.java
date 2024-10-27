@@ -1,3 +1,5 @@
+package Lab1;
+
 //ax + b = 0
 import java.util.Locale;
 import java.util.Scanner;
