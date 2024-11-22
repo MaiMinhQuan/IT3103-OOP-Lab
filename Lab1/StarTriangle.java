@@ -20,5 +20,6 @@ public class StarTriangle {
 
             System.out.println();
         }
+        scanner.close();
     }
 }

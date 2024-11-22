@@ -75,7 +75,7 @@ public class DayMonth {
 
         
         System.out.println("Mai Minh Quan - 20225661 - thang " + month + " nam " + year + " co " + day + " ngay");
-     
+        scanner.close();
 
 
     }

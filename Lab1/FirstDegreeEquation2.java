@@ -43,5 +43,6 @@ public class FirstDegreeEquation2 {
                 System.out.println("Mai Minh Quan - 20225661 - He phuong trinh vo nghiem.");
             }
         }
+        scanner.close();
     }
 }
