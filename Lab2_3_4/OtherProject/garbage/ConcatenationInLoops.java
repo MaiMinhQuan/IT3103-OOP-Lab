@@ -1,7 +1,7 @@
 //Mai Minh Quân
 //20225661
 //Class "ConcatenationInLoops"
-package Lab2_3.OtherProject.garbage;
+package Lab2_3_4.OtherProject.garbage;
 import java.util.Random;
 import static java.lang.System.currentTimeMillis; //Lam cho code ngan gon hon thay vi goi nguyen phuong thuc ay
 

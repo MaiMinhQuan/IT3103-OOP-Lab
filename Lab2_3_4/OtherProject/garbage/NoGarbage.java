@@ -1,21 +1,22 @@
 //Mai Minh Quân
 //20225661
-//Class "GarbageCreator"
-package Lab2_3.OtherProject.garbage;
+//Class "NoGarbage"
+package Lab2_3_4.OtherProject.garbage;
 import java.io.IOException;
 import java.nio.file.Files;
 import java.nio.file.Paths;
 
-public class GarbageCreator {
+public class NoGarbage {
     public static void main(String[] args) throws IOException {
         String filename = "C:\\Users\\MaiMinhQuan\\Desktop\\OOP lab\\Lab2_3\\OtherProject\\test.txt";
         byte[] inputBytes = { 0 };
         long startTime, endTime;
+
         inputBytes = Files.readAllBytes(Paths.get(filename));
         startTime = System.currentTimeMillis();
-        String outputString = "";
+        StringBuilder outputStringBuilder = new StringBuilder("");
         for(byte b : inputBytes) {
-            outputString += (char)b;
+            outputStringBuilder.append((char)b);
         }
         endTime = System.currentTimeMillis();
         System.out.println(endTime - startTime);
