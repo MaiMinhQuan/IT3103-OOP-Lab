@@ -1,0 +1,9 @@
+The Aims class must be updated to handle any exceptions generated when the play() methods are called. What happens when you don’t update for them to catch?
+
+Khi không cập nhật lớp Aims để xử lý các ngoại lệ sinh ra bởi phương thức play(), chương trình có thể gặp một số vấn đề sau:
+
++)Ngừng hoạt động hoặc sụp đổ: Nếu ngoại lệ không được bắt, chương trình sẽ bị gián đoạn khi xảy ra lỗi. Điều này làm gián đoạn trải nghiệm của người dùng và không cho phép chương trình tiếp tục thực hiện các tác vụ khác.
+
++)Không cung cấp thông tin về lỗi: Người dùng hoặc nhà phát triển sẽ không nhận được thông báo rõ ràng về lý do lỗi, khiến việc xử lý hoặc sửa lỗi trở nên khó khăn.
+
++)Dữ liệu không được bảo vệ: Nếu có lỗi xảy ra trong khi chơi media, các hành động tiếp theo như cập nhật giỏ hàng hoặc thông tin trạng thái có thể bị bỏ qua hoặc thực thi không chính xác.
